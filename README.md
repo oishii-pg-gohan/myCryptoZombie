@@ -15,5 +15,9 @@ solidityというプラグインをインストール。
 ![vscode_solidity_plugin](https://user-images.githubusercontent.com/65577678/129174843-bec5ddf6-5c29-4b34-8aba-70ffd39b783e.png)
 
 ## settings
-compilerを0.4.19（CryptoZombieで利用しているSolidityのバージョンに合わせる）に設定。  
-![vscodeで動かすときのcompiler指定](https://user-images.githubusercontent.com/65577678/129174990-79ac0979-8f3a-4205-8568-9ce1e917f5e0.png)
+compilerを0.5.16に設定する。  
+CryptoZombieで利用しているSolidityのバージョンは0.4.19だが、  
+VSCodeのプラグインsolidityでは0.5.x以降でないと怒られる。  
+Solidityの最新は0.8.xみたいだが、CryptoZombieでの書き方と  
+まぁまぁ差がありそうなので、近いバージョンを指定している。
+![vscodeで動かすときのcompiler指定](https://user-images.githubusercontent.com/65577678/129219499-de85ecaf-8f3a-4ba2-85c3-eff2d346a6fd.png)
