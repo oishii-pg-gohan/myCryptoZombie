@@ -3,8 +3,11 @@
 Ethereumのスマートコントラクト、Solidity学習サイトのTutorialソースコード  
 https://cryptozombies.io/jp/  
 
-Truffle環境で実施。  
-https://www.trufflesuite.com/
+TRUFFLE環境で実施。  
+https://www.trufflesuite.com/  
+※ひとまずCourse2-Chapter8の時点ではブロックチェーンへのアクセスは利用していないため、  
+　truffle-config.jsファイルは無視してok。  
+　TRUFFLEはcompile等のコマンドのために利用。（いずれGanacheやGethと連携する時にはtruffle-config.jsが必要になってくる）  
 
 # VSCode
 ## Plugin
