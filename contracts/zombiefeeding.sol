@@ -20,7 +20,7 @@ contract KittyInterface {
         );
 }
 
-// クリプトキティーズのgetKitty()関数のインターフェースを用意
+// クリプトキティーズのgetKitty()関数（コントラクト）のインターフェースを用意
 // function getKitty(uint256 _id) external view returns (
 //     bool isGestating,
 //     bool isReady,
@@ -49,8 +49,11 @@ contract KittyInterface {
 // }
 
 contract ZombieFeeding is ZombieFactory {
-    address ckAddress = 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d; // 上記クリプトキティーズのコントラクトアドレス
-    KittyInterface kittyContract = KittyInterface(ckAddress);
+    KittyInterface kittyContract;
+
+    function setKittyContractAddress(address _address) external {
+        kittyContract = KittyInterface(_address);
+    }
 
     function feedAndMultiply(
         uint256 _zombieId,
@@ -61,7 +64,7 @@ contract ZombieFeeding is ZombieFactory {
         Zombie storage myZombie = zombies[_zombieId];
         _targetDna = _targetDna % dnaModulus;
         uint256 newDna = (myZombie.dna + _targetDna) / 2;
-        // ここにifステートメントを追加せよ
+
         if (
             keccak256(abi.encodePacked(_species)) ==
             keccak256(abi.encodePacked("kitty"))
