@@ -1,5 +1,7 @@
 # myCryptoZombie  
 
-Ethereumのスマートコントラクト、Solidity学習サイトのTutorialソースコード
+Ethereumのスマートコントラクト、Solidity学習サイトのTutorialソースコード  
+https://cryptozombies.io/jp/  
 
-https://cryptozombies.io/jp/
+Truffle環境で実施。  
+https://www.trufflesuite.com/
