@@ -17,11 +17,11 @@ contract ZombieFactory {
     mapping(address => uint256) ownerZombieCount;
 
     // 下の関数定義を編集せよ
-    function _createZombie(string memory _name, uint256 _dna) private {
+    function _createZombie(string memory _name, uint256 _dna) internal {
         uint256 id = zombies.push(Zombie(_name, _dna)) - 1;
         zombieToOwner[id] = msg.sender;
         ownerZombieCount[msg.sender]++;
-        NewZombie(id, _name, _dna);
+        emit NewZombie(id, _name, _dna);
     }
 
     function _generateRandomDna(string memory _str)
@@ -29,7 +29,7 @@ contract ZombieFactory {
         view
         returns (uint256)
     {
-        uint256 rand = uint256(keccak256(_str));
+        uint256 rand = uint256(keccak256(abi.encodePacked(_str)));
         return rand % dnaModulus;
     }
 
