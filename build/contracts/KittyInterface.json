@@ -68,7 +68,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"getKitty\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"isGestating\",\"type\":\"bool\"},{\"internalType\":\"bool\",\"name\":\"isReady\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"cooldownIndex\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextActionAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"siringWithId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"birthTime\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"matronId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sireId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"generation\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"genes\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/zombiefeeding.sol\":\"KittyInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ownable.sol\":{\"keccak256\":\"0xb56572a7d1e0ba02451d1b2e19d82676436a90dd5a7792ea065feb9976875df3\",\"urls\":[\"bzz-raw://1753982462e766bac8d13e833dd90597a6774ebc4d4faa7a6815035984f4f554\",\"dweb:/ipfs/QmeaszNjnq4H2h2ACPDTijEyU8SJWKGj2uNegPGhZPvU64\"]},\"project:/contracts/zombiefactory.sol\":{\"keccak256\":\"0x6c818657d45fe732bb558ba7c2a2089313919a2e35a01a3e4eac432a536f341f\",\"urls\":[\"bzz-raw://8dc7b558fe99244de9ed069546fe5e75b044f47b2eea62da2cdadbde57b25822\",\"dweb:/ipfs/QmYEA8xJbMdNbzVLZX1DNzXu2CVJNW2hpCnERhsxXfxF28\"]},\"project:/contracts/zombiefeeding.sol\":{\"keccak256\":\"0x970706faf1fc248c67a16d17a6cc83788ecc058eb54e99754e13556ec82e844d\",\"urls\":[\"bzz-raw://d24bdd9ae9ccbf72cbef464d29609d012a5f6da2d6ccb50a0ecb3b5eb7ac09e9\",\"dweb:/ipfs/QmccR4XxfUF7fkTyNTq4wFLwHV95FZJE5rE991sYL6VgMM\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"getKitty\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"isGestating\",\"type\":\"bool\"},{\"internalType\":\"bool\",\"name\":\"isReady\",\"type\":\"bool\"},{\"internalType\":\"uint256\",\"name\":\"cooldownIndex\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nextActionAt\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"siringWithId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"birthTime\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"matronId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"sireId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"generation\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"genes\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/zombiefeeding.sol\":\"KittyInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ownable.sol\":{\"keccak256\":\"0xa8ae67ffde0c0abaccf839556b238d4a33ea89595d4539effa392e51d8c8f3f6\",\"urls\":[\"bzz-raw://b16423f51813bc9557fba63542669ff8cfdec446430fd109011a73da0f1d2c27\",\"dweb:/ipfs/QmbPBt8mmdGLGtCU1NYMiRrWnPE4aHWaL6BFBVF2pXtBMb\"]},\"project:/contracts/zombiefactory.sol\":{\"keccak256\":\"0x6c818657d45fe732bb558ba7c2a2089313919a2e35a01a3e4eac432a536f341f\",\"urls\":[\"bzz-raw://8dc7b558fe99244de9ed069546fe5e75b044f47b2eea62da2cdadbde57b25822\",\"dweb:/ipfs/QmYEA8xJbMdNbzVLZX1DNzXu2CVJNW2hpCnERhsxXfxF28\"]},\"project:/contracts/zombiefeeding.sol\":{\"keccak256\":\"0x970706faf1fc248c67a16d17a6cc83788ecc058eb54e99754e13556ec82e844d\",\"urls\":[\"bzz-raw://d24bdd9ae9ccbf72cbef464d29609d012a5f6da2d6ccb50a0ecb3b5eb7ac09e9\",\"dweb:/ipfs/QmccR4XxfUF7fkTyNTq4wFLwHV95FZJE5rE991sYL6VgMM\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
@@ -735,7 +735,7 @@
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 393,
+                            "referencedDeclaration": 577,
                             "src": "1779:3:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -922,7 +922,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 393,
+                          "referencedDeclaration": 577,
                           "src": "1921:3:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1066,7 +1066,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 391,
+                            "referencedDeclaration": 575,
                             "src": "2083:3:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -1147,10 +1147,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        394,
-                        395
+                        578,
+                        579
                       ],
-                      "referencedDeclaration": 394,
+                      "referencedDeclaration": 578,
                       "src": "2075:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1318,10 +1318,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        394,
-                        395
+                        578,
+                        579
                       ],
-                      "referencedDeclaration": 394,
+                      "referencedDeclaration": 578,
                       "src": "2186:7:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1620,7 +1620,7 @@
                               "name": "abi",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 378,
+                              "referencedDeclaration": 562,
                               "src": "2342:3:2",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_abi",
@@ -1667,7 +1667,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 385,
+                        "referencedDeclaration": 569,
                         "src": "2332:9:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -1723,7 +1723,7 @@
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 385,
+                        "referencedDeclaration": 569,
                         "src": "2373:9:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -3314,7 +3314,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 393,
+                                      "referencedDeclaration": 577,
                                       "type": "uint256",
                                       "value": "now"
                                     },
@@ -3520,7 +3520,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 393,
+                                  "referencedDeclaration": 577,
                                   "type": "uint256",
                                   "value": "now"
                                 },
@@ -3693,10 +3693,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                394,
-                                395
+                                578,
+                                579
                               ],
-                              "referencedDeclaration": 394,
+                              "referencedDeclaration": 578,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -3737,7 +3737,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 391,
+                                      "referencedDeclaration": 575,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -3917,10 +3917,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                394,
-                                395
+                                578,
+                                579
                               ],
-                              "referencedDeclaration": 394,
+                              "referencedDeclaration": 578,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -4278,7 +4278,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 385,
+                                  "referencedDeclaration": 569,
                                   "type": "function (bytes memory) pure returns (bytes32)",
                                   "value": "keccak256"
                                 },
@@ -4324,7 +4324,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 378,
+                                          "referencedDeclaration": 562,
                                           "type": "abi",
                                           "value": "abi"
                                         },
@@ -4387,7 +4387,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 385,
+                                  "referencedDeclaration": 569,
                                   "type": "function (bytes memory) pure returns (bytes32)",
                                   "value": "keccak256"
                                 },
@@ -5144,7 +5144,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-13T01:07:09.411Z",
+  "updatedAt": "2021-08-13T06:09:48.103Z",
   "devdoc": {
     "methods": {}
   },
