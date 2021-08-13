@@ -546,7 +546,7 @@
                                   "name": "now",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 749,
+                                  "referencedDeclaration": 795,
                                   "src": "318:3:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -561,7 +561,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 747,
+                                    "referencedDeclaration": 793,
                                     "src": "323:3:2",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -617,7 +617,7 @@
                                   "name": "abi",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 734,
+                                  "referencedDeclaration": 780,
                                   "src": "301:3:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_abi",
@@ -664,7 +664,7 @@
                             "name": "keccak256",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 741,
+                            "referencedDeclaration": 787,
                             "src": "291:9:2",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -2044,7 +2044,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 741,
+                                      "referencedDeclaration": 787,
                                       "type": "function (bytes memory) pure returns (bytes32)",
                                       "value": "keccak256"
                                     },
@@ -2098,7 +2098,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 734,
+                                              "referencedDeclaration": 780,
                                               "type": "abi",
                                               "value": "abi"
                                             },
@@ -2117,7 +2117,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 749,
+                                          "referencedDeclaration": 795,
                                           "type": "uint256",
                                           "value": "now"
                                         },
@@ -2143,7 +2143,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 747,
+                                              "referencedDeclaration": 793,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -3145,7 +3145,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.2",
-  "updatedAt": "2021-08-13T13:46:26.485Z",
+  "updatedAt": "2021-08-13T14:06:05.704Z",
   "devdoc": {
     "methods": {
       "transferOwnership(address)": {
