@@ -1,6 +1,6 @@
 # myCryptoZombie  
 
-## ひとまず、web3いじる辺りまでTutorialは完了。
+## ひとまず、web3いじる辺りまでのTutorialは完了。
 https://share.cryptozombies.io/jp/lesson/6/share/The_Phantom_of_Web3?id=Y3p8MTIzODk3  
 
 ## 概要
